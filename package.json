@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "202301-W06CH02_Jesus-Santiago",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,7 +21,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest --watchAll --coverage",
+    "test:prod": "jest --watchAll --coverage watchAll=false",
     "eject": "react-scripts eject",
     "prepare": "husky install"
   },

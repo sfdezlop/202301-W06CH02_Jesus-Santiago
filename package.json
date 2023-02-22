@@ -1,5 +1,5 @@
 {
-  "name": "202301-W06CH02_Jesus-Santiago",
+  "name": "w6ch2-got-redux",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +11,6 @@
     "@types/node": "^17.0.45",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
-    "husky": "^8.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
@@ -24,7 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll --coverage",
     "test:prod": "react-scripts test --watchAll --coverage --watchAll=false",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -43,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "husky": "^8.0.0"
   }
 }
